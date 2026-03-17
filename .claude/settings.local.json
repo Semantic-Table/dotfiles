@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Read(//c/Users/MarvinLePeillet/AppData/Local/nvim/lua/config//**)",
+      "Read(//c/Users/MarvinLePeillet/AppData/Local/nvim/**)",
+      "Read(//c/Users/MarvinLePeillet/AppData/Local/nvim/lua//**)",
+      "WebSearch",
+      "Bash(cp /c/Sites/dotfiles/lazyvim/lua/plugins/solarized-osaka.lua /c/Users/MarvinLePeillet/AppData/Local/nvim/lua/plugins/solarized-osaka.lua)",
+      "Bash(rm -f /c/Users/MarvinLePeillet/AppData/Local/nvim/lua/plugins/gruvbox.lua)",
+      "Bash(find /c/Users/MarvinLePeillet/AppData/Local/nvim -name *.lua -type f)",
+      "Bash(grep:*)",
+      "Bash(find c:/Sites/dotfiles -name *.lua -type f)",
+      "Bash(scoop bucket:*)",
+      "Bash(scoop install:*)"
+    ]
+  }
+}

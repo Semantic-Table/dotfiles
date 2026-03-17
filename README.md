@@ -50,10 +50,11 @@ cp lazyvim/lua/plugins/* ~/.config/nvim/lua/plugins/
 
 | Plugin | Fichier | Description |
 |--------|---------|-------------|
-| **Gruvbox** | `gruvbox.lua` | Colorscheme Gruvbox |
+| **Solarized Osaka** | `solarized-osaka.lua` | Colorscheme Solarized Osaka |
 | **Hardtime** | `hardtime.lua` | Force les bonnes habitudes Vim (bloque le spam de touches) |
 | **Transparent** | `transparent.lua` | Rend le background Neovim transparent (pour voir le terminal derriere) |
 | **Claude Code** | `claude-code.lua` | Integration Claude Code dans Neovim |
+| **Snacks Explorer** | `neo-tree.lua` | Desactive Neo-tree, configure snacks explorer (fichiers caches + gitignored visibles) |
 
 ### Raccourcis Claude Code
 
@@ -64,9 +65,37 @@ cp lazyvim/lua/plugins/* ~/.config/nvim/lua/plugins/
 | `<leader>cls` | Envoyer la selection (mode visuel) |
 | `<leader>clv` | Ouvrir en vsplit |
 
-### Pre-requis
+### Extras LazyVim actives
+
+- `lazyvim.plugins.extras.ai.claudecode`
+- `lazyvim.plugins.extras.coding.yanky`
+- `lazyvim.plugins.extras.lang.angular`
+- `lazyvim.plugins.extras.lang.json`
+- `lazyvim.plugins.extras.lang.markdown`
+- `lazyvim.plugins.extras.lang.python`
+
+## Pre-requis
+
+### Logiciels
 
 - [Neovim](https://neovim.io/) >= 0.9
 - [LazyVim](https://www.lazyvim.org/)
 - [WezTerm](https://wezfurlong.org/wezterm/)
 - [Lazygit](https://github.com/jesseduffield/lazygit) (pour `<leader>gg`)
+- [Node.js](https://nodejs.org/) (pour les extras lang)
+
+### Dependances systeme (Windows, via Scoop)
+
+```powershell
+scoop bucket add extras
+scoop bucket add nerd-fonts
+scoop install git
+scoop install neovim
+scoop install lazygit
+scoop install fzf
+scoop install fd
+scoop install ripgrep
+scoop install mingw              # compilateur C pour treesitter
+scoop install ruff
+scoop install nerd-fonts/JetBrainsMono-NF
+```
