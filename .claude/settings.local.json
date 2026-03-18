@@ -12,7 +12,15 @@
       "Bash(grep:*)",
       "Bash(find c:/Sites/dotfiles -name *.lua -type f)",
       "Bash(scoop bucket:*)",
-      "Bash(scoop install:*)"
+      "Bash(scoop install:*)",
+      "Bash(cp:*)",
+      "Read(//c/Users/marvi/**)",
+      "Read(//c/Users/marvi/AppData/Local/nvim/lua/config/**)",
+      "Bash(lazygit --version)",
+      "Bash(fzf --version)",
+      "Bash(ruff --version)",
+      "Read(//c/Users/marvi/Sites/dotfiles/$LOCALAPPDATA/**)",
+      "Read(//c/Users/marvi/Sites/dotfiles/Local/**)"
     ]
   }
 }

@@ -1,6 +1,11 @@
 return {
   -- add solarized-osaka
-  { "craftzdog/solarized-osaka.nvim" },
+  {
+    "craftzdog/solarized-osaka.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
 
   -- Configure LazyVim to load solarized-osaka
   {
