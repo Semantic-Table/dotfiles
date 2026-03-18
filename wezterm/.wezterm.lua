@@ -9,7 +9,7 @@ config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 12
 
 -- Transparence sans flou
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.9
 config.win32_system_backdrop = "Disable"
 
 -- Masquer la tab bar (si un seul tab) et les bordures
