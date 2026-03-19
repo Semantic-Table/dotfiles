@@ -11,6 +11,12 @@ return {
           explorer = {
             hidden = true,
             ignored = true,
+            layout = {
+              layout = {
+                position = "left",
+                width = 0.15,
+              },
+            },
           },
         },
       },

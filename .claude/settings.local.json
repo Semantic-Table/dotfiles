@@ -20,7 +20,9 @@
       "Bash(fzf --version)",
       "Bash(ruff --version)",
       "Read(//c/Users/marvi/Sites/dotfiles/$LOCALAPPDATA/**)",
-      "Read(//c/Users/marvi/Sites/dotfiles/Local/**)"
+      "Read(//c/Users/marvi/Sites/dotfiles/Local/**)",
+      "Bash(cp \"C:\\\\Users\\\\marvi\\\\AppData\\\\Local\\\\nvim\\\\lua\\\\plugins\\\\neo-tree.lua\" \"C:\\\\Users\\\\marvi\\\\AppData\\\\Local\\\\nvim\\\\lua\\\\plugins\\\\snacks.lua\")",
+      "Bash(rm \"C:\\\\Users\\\\marvi\\\\AppData\\\\Local\\\\nvim\\\\lua\\\\plugins\\\\neo-tree.lua\")"
     ]
   }
 }

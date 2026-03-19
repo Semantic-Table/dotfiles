@@ -15,16 +15,15 @@ return {
     require("claude-code").setup({
       claude_code_cmd = "claude",
       window = {
-        type = "current", -- "current", "split", "vsplit", "tabnew", "float"
-        position = "right", -- "right", "left", "top", "bottom" (for splits)
-        size = 80, -- columns for vsplit, lines for split
+        type = "current",
+        position = "right",
+        size = 80,
       },
       auto_scroll = true,
       save_session = true,
-      auto_save_session = true, -- Auto-save on focus loss
-      auto_save_notify = true, -- Show notifications when auto-saving
+      auto_save_session = true,
+      auto_save_notify = true,
       session_dir = vim.fn.stdpath("data") .. "/claude-code-sessions/",
-      -- Disable built-in keybindings since we're using LazyVim keys spec
       keybindings = false,
     })
   end,
