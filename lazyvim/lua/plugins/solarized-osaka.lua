@@ -7,11 +7,20 @@ return {
     },
   },
 
-  -- Configure LazyVim to load solarized-osaka
+  -- add catppuccin
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      transparent_background = true,
+    },
+  },
+
+  -- Configure LazyVim colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized-osaka",
+      colorscheme = "catppuccin",
     },
   },
 }
