@@ -5,7 +5,7 @@ local config = wezterm.config_builder()
 config.default_cwd = "C:/"
 
 -- Font
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+config.font = wezterm.font("Hack Nerd Font Mono")
 config.font_size = 12
 
 -- Transparence sans flou
