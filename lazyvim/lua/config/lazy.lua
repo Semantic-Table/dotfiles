@@ -1,3 +1,7 @@
+if vim.fn.has("win32") == 1 then
+  vim.env.PATH = "C:\\Program Files\\Git\\usr\\bin;" .. vim.env.PATH
+end
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://github.com/folke/lazy.nvim.git"
@@ -21,6 +25,7 @@ require("lazy").setup({
     -- extras
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
+    { import = "lazyvim.plugins.extras.ai.codeium" },
     -- import/override with your plugins
     { import = "plugins" },
   },
